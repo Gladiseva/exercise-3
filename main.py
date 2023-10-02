@@ -111,11 +111,10 @@ while space_exist():
         continue
     #
     if won:
-        result = '*** Congrats you WON ! ***'
-
+        result = 'Congrats! You won'
         break
     elif computer_move()[1]:
-        result = '=== You lose ! =='
+        result = 'You lose !'
         break
 print_board()
 print(result)
